@@ -1,0 +1,27 @@
+.right {
+    width: 100%;
+  }
+  
+  table {
+    /*   border: 1px solid black; */
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  caption {
+    margin-bottom: 10px;
+    color: #9394de;
+    font-weight: bold;
+  }
+  
+  th {
+    text-align: left;
+    color: #9394de;
+    padding-bottom: 5px;
+  }
+  
+  td {
+    /*   border: 1px solid black; */
+    color: #fff;
+  }
+  

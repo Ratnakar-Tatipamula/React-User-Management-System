@@ -1,0 +1,56 @@
+body {
+    background-color: #2e2f6e;
+  }
+  
+  .title {
+    color: #9394de;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  
+  .main {
+    display: flex;
+    font-family: sans-serif;
+    height: 80%;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    table {
+      margin: 15px;
+      /*     padding: 15px; */
+    }
+    table thead {
+      display: none;
+    }
+    table caption {
+      display: block;
+      text-align: left;
+    }
+    table,
+    tbody,
+    tr,
+    td {
+      display: block;
+    }
+  
+    tr td {
+      text-align: right;
+      position: relative;
+    }
+    td:before {
+      content: attr(data-label);
+      left: 0;
+      position: absolute;
+      font-weight: bold;
+    }
+    .main {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
