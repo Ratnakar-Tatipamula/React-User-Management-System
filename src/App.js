@@ -48,7 +48,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <div class="title">CRUD Operations</div>
+      <div class="title">User Management System</div>
       <div className="main">
         {editing ? (
           <EditUser
